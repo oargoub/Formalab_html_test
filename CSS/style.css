@@ -3,9 +3,9 @@ h1
     color:blue;/*les titres sont écrits en bleu */
 
 }
-.arriéreplan
-{
-    background-color:#F3D3CB;
+h2{
+
+    color:rgb(88, 48, 231)
 }
 .image
 {
@@ -13,9 +13,14 @@ h1
     
     background-size: 100%;
 }
-.image
+.image2
 {
-    background-image:URL("../image/fleur.jpg");
+    background-image:URL("../image/flower.jpg");
     
     background-size: 100%;
+}
+textarea,input
+{
+    font-family: Times New Roman;
+
 }
