@@ -3,84 +3,88 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet"href="../CSS/style.css"/>
+    <link rel="stylesheet" href="../CSS/style.css" />
     <title>To do liste </title>
 </head>
 
 <body class="image">
     <p>
+        <!--logo existant sur toute les pages-->
         <img src="../image/html5.png" width="125" height="70" alt="Logo_page" />
     </p>
     <p>
+        <!--le boutton home permet de revenir vers la page d'acceuil-->
         <a href="Home.html"> <input type="Button" value="Déconnexion" /></a>
     </P>
-    <!-- le boutton Déconnexion permet la redirection vers la page d'acceuil-->
+    <!-- le boutton profile permet la redirection vers la page profile.html-->
     <p>
         <a href="profile.html"> <input type="Button" value="Profile" /></a>
     </p>
-    <p>
+    <p><!--le boutton ajouter permet d'ajouter une tache dans le tableau todolist-->
         <a href="Ajouter.html"> <input type="Button" value="Ajouter"></a>
     </p>
-<div><h2>Description</h2>
-    <table border="1">
-        <thead>
+    <div>
+        <h2>Todolist</h2>
+        <table border="1"><!--tableau todolist-->
+            <thead>
+                <tr>
+                    <th>Description</th><!--la description de la tache à faire-->
+                    <th>Date </th><!--l'échéance-->
+                    <th>Action </th><!--modifier/supprimer la tache-->
+                </tr>
+            </thead>
             <tr>
-                <th>Description</th>
-                <th>Date </th>
-                <th>Action </th>
+                <td>Préparer les fiches de paramétrage</td>
+                <td>19-04-2019</td>
+                <td>
+                    <Form>
+                        <button>Done</button>
+                        <button>Edit</button>
+                        <button>Delete</button>
+
+                    </Form>
+                </td>
             </tr>
-        </thead>
-        <tr>
-            <td>Préparer les fiches de paramétrage</td>
-            <td>19-04-2019</td>
-            <td>
-                <Form>
-                    <button>Done</button>
-                    <button>Edit</button>
-                    <button>Delete</button>
+            <!--Done permet de supprimer la tache du table todolist et de la transmettre à la table done-->
+            <tr>
+                <td>checker les émails </td>
+                <td>20-04-2019</td>
+                <td>
+                    <Form>
+                        <button>Done</button>
+                        <button>Edit</button>
+                        <button>Delete</button>
 
-                </Form>
-            </td>
-        </tr>
-        <!--Done permet de supprimer la tache du table todolist et de la transmettre à la table done-->
-        <tr>
-            <td>checker les émails </td>
-            <td>20-04-2019</td>
-            <td>
-                <Form>
-                    <button>Done</button>
-                    <button>Edit</button>
-                    <button>Delete</button>
+                    </Form>
+                </td>
+            </tr>
+    </div>
+    <tr>
+        <td>............. </td>
+        <td>xx-xx-xxxx</td>
+        <td>
 
-                </Form>
-            </td>
-        </tr></div>
-     <tr>
-            <td>............. </td>
-            <td>xx-xx-xxxx</td>
-            <td>
-                
-                    <button>Done</button>
-                    <button>Edit</button>
-                    <button>Delete</button>
+            <button>Done</button>
+            <button>Edit</button>
+            <button>Delete</button>
 
-            
-            </td>
-        </tr>
+
+        </td>
+    </tr>
     </table><br>
 
     <hr color="blue" />
 
-        <h2>Done</h2>
-  
+    <h2>Done</h2>
+
 
     <table border="1">
         <thead>
             <tr>
-                <th>Description</th>
-                <th>Date Début </th>
-                <th>Date Fin </th>
-                <th>Action </th>
+                <th>Description</th><!--description de la tache-->
+                <th>Date Début </th><!--date début de la tache-->
+                <th>Date Fin </th><!--date fin de la tache -->
+                <th>Action </th><!--une seule action:la suppression-->
             </tr>
         </thead>
 
@@ -89,8 +93,8 @@
             <td>18-04-2019</td>
             <td>19-04-2019</td>
             <td>
-                
-                    <button>Delete</button>
+
+                <button>Delete</button><!--supprimer la tache faite-->
 
             </td>
         </tr>
