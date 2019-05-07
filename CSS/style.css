@@ -9,5 +9,13 @@ h1
 }
 .image
 {
-    background-image: url(Images/block.gif);">
+    background-image:URL("../image/fleur.jpg");
+    
+    background-size: 100%;
+}
+.image
+{
+    background-image:URL("../image/fleur.jpg");
+    
+    background-size: 100%;
 }
