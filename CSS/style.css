@@ -8,19 +8,26 @@ h2{
     color:rgb(88, 48, 231)
 
 }
+h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+}
+/*arriére plan des pages de navigation */
 .image
 {
     background-image:URL("../image/fleur.jpg");
     
     background-size: 100%;
+    background-attachment: fixed;
 }
+/*arriére plan de la page d'acceuil */
 .image2
 {
     background-image:URL("../image/flower.jpg");
     
     background-size: 100%;
+    background-attachment: fixed;
 }
-textarea,input
+input
 {
     font-family: Times New Roman;
 
@@ -35,11 +42,14 @@ font-weight: bolder;
     margin-left: 20px;
   }
   div{
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 20px;
-
   }
   #ajouter
   {
     margin-top: 50px;
+  }
+  .image3
+  {
+    margin-top: 200px;
   }
